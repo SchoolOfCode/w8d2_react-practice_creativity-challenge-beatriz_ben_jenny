@@ -1,10 +1,20 @@
 
 import './App.css';
 
+import ZenQuote from '../ZenQuote';
+import Timer from '../Timer';
+import InputTime from '../InputTime';
+import Counter from '../Counter';
+
 function App() {
+
+
   return (
     <div className="App">
-     Hello
+      <ZenQuote />
+      <Timer/>
+      <InputTime />
+      <Counter/>
     </div>
   );
 }
