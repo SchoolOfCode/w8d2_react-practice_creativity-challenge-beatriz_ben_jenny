@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 const quote = [
   {
@@ -83,9 +83,10 @@ const quote = [
 ];
 
 function ZenQuote() {
-  const randomNumber = Math.floor(Math.random() * 10);
+    const [randomNumber, setRandomNumber] = useState(0)
+ 
   function newRandomNumber() {
-    return Math.floor(Math.random() * 10);
+    setRandomNumber(Math.floor(Math.random() * 10));
   }
 
   return (
