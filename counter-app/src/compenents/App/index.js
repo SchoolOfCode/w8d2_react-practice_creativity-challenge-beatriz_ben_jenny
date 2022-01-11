@@ -1,21 +1,15 @@
+import "./App.css";
 
-import './App.css';
-
-import ZenQuote from '../ZenQuote';
-import Timer from '../Timer';
-import InputTime from '../InputTime';
-import Counter from '../Counter';
-
+import ZenQuote from "../ZenQuote";
+import InputTime from "../InputTime";
+import Counter from "../Counter";
 
 function App() {
-
-
   return (
     <div className="App">
       <ZenQuote />
-      <Timer/>
       <InputTime />
-      <Counter/>
+      <Counter />
     </div>
   );
 }
